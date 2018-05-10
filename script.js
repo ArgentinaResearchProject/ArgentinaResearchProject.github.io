@@ -1,5 +1,5 @@
 $(document).ready(function() {
-  let s1, s2, s3 = false;
+  let s1, s2, s3, s4, s5, s6, s7, s8, s9, s10, s11, s12, s13, s14 = false;
   $("#img1").click(function() {
     if (s1) {
       $("#slide1").hide(1500);
@@ -49,6 +49,21 @@ $(document).ready(function() {
     
   });
   $("#img9").click(function() {
+    
+  });
+  $("#img10").click(function() {
+    
+  });
+  $("#img11").click(function() {
+    
+  });
+  $("#img12").click(function() {
+    
+  });
+  $("#img13").click(function() {
+    
+  });
+  $("#img14").click(function() {
     
   });
 });
