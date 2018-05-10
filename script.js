@@ -24,7 +24,7 @@ $(document).ready(function() {
     $("#slide2").hide(1500);
   });
   $("#img3").click(function() {
-    if (s) {
+    if (s3) {
       $("#slide3").hide(1500);
       s3 = false;
     }
