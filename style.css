@@ -29,6 +29,10 @@ h1 {
   display: none;
 }
 
+.thing p {
+  text-align: left; 
+}
+
 h2 {
   font-size: 2em;
 }
