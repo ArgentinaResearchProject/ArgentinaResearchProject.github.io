@@ -1,67 +1,71 @@
 html {
-  background: linear-gradient(to right, blue, darkblue);
-}
+    background: linear-gradient(to right, blue, darkblue);
+  }
+  
+  .slides {
+    display: flex;
+    justify-content: center; 
+  }
+  
+  .img {
+    height: 250px;
+    width: 250px;
+    margin: 10px;
+    border: 2px solid black;
+  }
+  
+  h1 {
+    text-align: center;
+    font-size: 3em;
+  }
+  
+  .thing {
+    height: 500px;
+    width: 500px;
+    border: 2px solid black;
+    text-align: center;
+    background-color: lightblue;
+    position: absolute;
+    display: none;
+  }
+  
+  .thing p {
+    text-align: left; 
+    font-size: 1.25em;
+    font-family: 'Times New Roman', Times, serif;
+    margin: 10px;
+  }
+  
+  h2 {
+    font-size: 2em;
+  }
+  
+  #slide1 {
+    height: 150px;
+  }
+  
+  #slide2 {
+    height: 250px;
+  }
+  
+  #slide2 p {
+    font-size: 1.5em;
+    text-align: center;
+  }
+  
+  .btn {
+    font-size: 1.5em;
+  }
+  
+  #slide3 p {
+    font-size: 1.25em;
+  }
+  
+  #slide3 {
+    height: 350px;
+  }
+  
+  #thesis {
+    color: red;
+  }
 
-.slides {
-  display: flex;
-  justify-content: center; 
-}
-
-.img {
-  height: 250px;
-  width: 250px;
-  margin: 10px;
-  border: 2px solid black;
-}
-
-h1 {
-  text-align: center;
-  font-size: 3em;
-}
-
-.thing {
-  height: 500px;
-  width: 500px;
-  border: 2px solid black;
-  text-align: center;
-  background-color: lightblue;
-  position: absolute;
-  display: none;
-}
-
-.thing p {
-  text-align: left; 
-}
-
-h2 {
-  font-size: 2em;
-}
-
-#slide1 {
-  height: 150px;
-}
-
-#slide2 {
-  height: 250px;
-}
-
-#slide2 p {
-  font-size: 1.5em;
-  text-align: center;
-}
-
-.btn {
-  font-size: 1.5em;
-}
-
-#slide3 p {
-  font-size: 1.25em;
-}
-
-#slide3 {
-  height: 350px;
-}
-
-#thesis {
-  color: red;
-}
