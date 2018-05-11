@@ -92,7 +92,14 @@ $(document).ready(function() {
     });
     
     $("#img9").click(function() {
-      
+      if (s9) {
+        $("#slide9").hide(1500);
+        s9 = false;
+      }
+      else {
+        $("#slide9").show(1500);
+        s9 = true;
+      }
     });
     $("#img10").click(function() {
       
