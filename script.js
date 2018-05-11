@@ -68,11 +68,29 @@ $(document).ready(function() {
           }
     });
     $("#img7").click(function() {
-      
+      if (s7) {
+        $("#slide7").hide(1500);
+        s7 = false;
+      }
+      else {
+        $("#slide7").show(1500);
+        s7 = true;
+      }
     });
     $("#img8").click(function() {
-      
+      if (s8) {
+        $("#slide8").hide(1500);
+        s8 = false;
+      }
+      else {
+        $("#slide8").show(1500);
+        s8 = true;
+      }
     });
+    $("#c2").click(function() {
+        $("#slide8").hide(1500);
+    });
+    
     $("#img9").click(function() {
       
     });
