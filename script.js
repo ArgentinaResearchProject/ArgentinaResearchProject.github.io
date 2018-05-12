@@ -102,13 +102,38 @@ $(document).ready(function() {
       }
     });
     $("#img10").click(function() {
-      
+      if (s10) {
+        $("#slide10").hide(1500);
+        s10 = false;
+      }
+      else {
+        $("#slide10").show(1500);
+        s10 = true;
+      }
     });
     $("#img11").click(function() {
-      
+      if (s11) {
+        $("#slide11").hide(1500);
+        s11 = false;
+      }
+      else {
+        $("#slide11").show(1500);
+        s11 = true;
+      }
     });
+    $("#c3").click(function() {
+        $("#slide11").hide(1500);
+    });
+    
     $("#img12").click(function() {
-      
+      if (s12) {
+        $("#slide12").hide(1500);
+        s12 = false;
+      }
+      else {
+        $("#slide12").show(1500);
+        s12 = true;
+      }
     });
     $("#img13").click(function() {
       
