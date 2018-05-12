@@ -29,7 +29,7 @@ html {
     display: none;
   }
   
-  .thing p {
+  .thing p, .thing pre {
     text-align: left; 
     font-size: 1.25em;
     font-family: 'Times New Roman', Times, serif;
