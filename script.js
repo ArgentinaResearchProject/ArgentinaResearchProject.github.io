@@ -136,9 +136,23 @@ $(document).ready(function() {
       }
     });
     $("#img13").click(function() {
-      
+      if (s13) {
+        $("#slide13").hide(1500);
+        s13 = false;
+      }
+      else {
+        $("#slide13").show(1500);
+        s13 = true;
+      }
     });
     $("#img14").click(function() {
-      
+      if (s14) {
+        $("#slide14").hide(1500);
+        s14 = false;
+      }
+      else {
+        $("#slide14").show(1500);
+        s14 = true;
+      }
     });
   });
