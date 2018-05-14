@@ -7,6 +7,10 @@ html {
     justify-content: center; 
   }
   
+  hr {
+    width: 50%;    
+  }
+
   .img {
     height: 250px;
     width: 250px;
